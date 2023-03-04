@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Valhalla Gym</title>
+</head>
+<body class="bg-dark">
+    <section class="hero h-[64vh] lg:h-[100vh]">
+        <header class="text-2xl absolute z-50 mt-6 ml-8 sm:ml-16 lg:ml-32">
+            <h1 class="font-antonio font-bold uppercase text-light text-2xl sm:text-3xl">Valhalla Fitness</h1>
+        </header>
+        <div class="hero-overlay h-[64vh] hero-gradient absolute top-0 left-0 right-0 bottom-0 z-40 lg:h-[100vh]"></div>
+        <div class="hero-image h-[64vh] bg-[url('/images/valhalla-hero.jpg')] bg-[length:200%] bg-top bg-no-repeat pt-6 px-8 absolute top-0 left-0 right-0 bottom-0 sm:bg-[length:100%] lg:h-[100vh]">
+        <div class="call-action flex flex-col items-center gap-10 relative z-50 top-2/3 left-2/4 -translate-x-1/2 -translate-y-2/3">
+            <h2 class="uppercase text-light text-4xl font-bold font-antonio text-center leading-tight sm:text-5xl lg:text-8xl">Vení a entrenar a <span class="uppercase text-primary text-4xl sm:text-5xl lg:text-8xl">Valhalla</span></h2>
+            <a href="#plans" class="action-btn">Quiero Entrenar</a>
+        </div>
+    </section>
+    <section class="gallery px-8 mb-12 sm:px-16 lg:px-32">
+        <div class="gallery-title flex items-center justify-center gap-2 mt-8">
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+            <h2 class="uppercase text-light font-antonio text-xl text-center lg:text-3xl">Valhalla Fitness</h2>
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+        </div>
+        <p class="gallery-copy font-roboto text-center my-6">
+            En Valhalla te llevamos al límite de tu capacidad para superarte día a día. Contamos con un staff de profesionales que te acompañaran en todo momento para encontrar tu mejor versión. Ejercicio y Salud.
+        </p>
+        <div class="gallery-images flex flex-col gap-8 lg:grid lg:grid-cols-2">
+            <figure>
+                <img src="images/valhalla-gym.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="images/valhalla-gym-3.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="images/valhalla-gym-2.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="images/valhalla-gym-4.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <section class="activities px-8 mb-12 sm:px-16 lg:px-32">
+        <div class="activities-title flex items-center justify-center gap-2 mt-8 mb-6">
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+            <h2 class="uppercase text-light font-antonio text-xl text-center">Actividades</h2>
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+        </div>
+        <div class="activities-container flex flex-col gap-8 lg:grid lg:grid-cols-3">
+            <div class="activities-card bg-[url('/images/valhalla-musculacion.jpg')]">
+                <div class="activities-card-info">
+                    <h3 class="uppercase font-antonio text-light text-3xl">
+                        Musculación
+                    </h3>
+                    <a href="#schedules" class="action-btn">Ver Horarios</a>
+                </div>
+            </div>
+            <div class="activities-card bg-[url('/images/valhalla-spinning.jpg')]">
+                <div class="activities-card-info">
+                    <h3 class="uppercase font-antonio text-light text-3xl">
+                        Indoor Cycle
+                    </h3>   
+                    <a href="#schedules" class="action-btn">Ver Horarios</a>
+                </div>
+            </div>
+            <div class="activities-card bg-[url('/images/valhalla-boxeo.jpg')]">
+                <div class="activities-card-info">
+                    <h3 class="uppercase font-antonio text-light text-3xl">
+                        Boxeo
+                    </h3>
+                    <a href="#schedules" class="action-btn">Ver Horarios</a>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="schedule px-8 mb-12 sm:px-16 lg:px-32">
+        <div class="schedule-title flex items-center justify-center gap-2 mt-8 mb-10">
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+            <h2 class="uppercase text-light font-antonio text-xl text-center" id="schedules">Horarios</h2>
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+        </div>
+        <div class="schedule-container lg:grid lg:grid-cols-3 lg:gap-8">
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Lunes</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>17.15 - 18.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>19.00 - 19.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>20.30 - 21.30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Martes</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>17.15 - 18.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>19.00 - 19.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>20.30 - 21.30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Miércoles</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>17.15 - 18.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>19.00 - 19.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>20.30 - 21.30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Jueves</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>17.15 - 18.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>19.00 - 19.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>20.30 - 21.30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Viernes</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>17.15 - 18.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>19.00 - 19.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>20.30 - 21.30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="day-section mb-6 max-w-[372px] w-full mx-auto lg:min-w-[222px]">
+                <h3 class="day-title font-antonio text-primary text-2xl mb-4">Sábado</h3>
+                <div class="day-classes">
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>9.00 - 9.45</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Boxeo</p>
+                        <p>12.15 - 13.15</p>
+                    </div>
+                    <div class="class flex justify-between border-b border-light py-1">
+                        <p>Spinning</p>
+                        <p>14.00 - 14.45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="action-btn block max-w-[372px] w-full mt-2 mx-auto" id="booking-btn">Reserva tus clases</button>
+    </section>
+    <section class="plans mb-12 sm:px-16 lg:px-32" id="plans">
+        <div class="plans-title flex items-center justify-center gap-2 mt-8 mb-10">
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+            <h2 class="uppercase text-light font-antonio text-xl text-center lg:text-3xl">Planes</h2>
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+        </div>
+        <div class="plans-container px-8 flex flex-col items-center sm:grid sm:grid-cols-2 sm:gap-5 sm:max-w-[523px] sm:mx-auto lg:grid-cols-4 lg:gap-5 lg:max-w-none">
+            <div class="plan-card bg-background h-full w-[222px] p-8 grid justify-center mb-10 sm:mb-0">
+                <h3 class="plan-card-title font-antonio text-2xl uppercase text-light text-center mb-4">Plan Boxeo</h3>
+                <p class="plan-card-price text-4xl text-primary font-antonio font-bold mb-4">$900<span class="text-light text-2xl">/clase</span></p>
+                <p class="plan-card-price text-4xl text-primary font-antonio font-bold mb-4">$5500<span class="text-light text-2xl">/mes</span></p>
+                <p class="font-antonio font-light text-base text-center mb-4">Ocho clases por mes</p>
+                <button class="action-btn registration-btn w-[130px] mx-auto">Inscribirme</button>
+            </div>
+            <div class="plan-card bg-background h-full w-[222px] p-8 grid justify-center mb-10 sm:mb-0">
+                <h3 class="plan-card-title font-antonio text-2xl uppercase text-light text-center mb-4">Plan Mensual</h3>
+                <p class="plan-card-price text-4xl text-primary font-antonio font-bold mb-4">$3500<span class="text-light text-2xl">/mes</span></p>
+                <p class="font-antonio font-light text-base text-center mb-4">Musculación Libre</p>
+                <p class="font-antonio font-light text-base text-center mb-4">Indoor Cycle</p>
+                <button class="action-btn registration-btn w-[130px] mx-auto">Inscribirme</button>
+            </div>
+            <div class="plan-card bg-background h-full w-[222px] p-8 grid justify-center mb-10 sm:mb-0">
+                <h3 class="plan-card-title font-antonio text-2xl uppercase text-light text-center">Plan Semestral</h3>
+                <p class="font-antonio font-light text-base text-center text-gray mb-4">$16.800 los seis meses</p>
+                <p class="plan-card-price text-4xl text-primary font-antonio font-bold mb-4">$2800<span class="text-light text-2xl">/mes</span></p>
+                <p class="font-antonio font-light text-base text-center mb-4">Musculación Libre</p>
+                <p class="font-antonio font-light text-base text-center mb-4">Indoor Cycle</p>
+                <button class="action-btn registration-btn w-[130px] mx-auto">Inscribirme</button>
+            </div>
+            <div class="plan-card bg-background h-full w-[222px] flex flex-col items-center pb-8">
+                <div class="w-full h-10 bg-primary grid place-content-center mb-3">
+                    <p class="text-center font-antonio uppercase text-sm">Más Recomendado</p>
+                </div>
+                <h3 class="plan-card-title font-antonio text-2xl uppercase text-light text-center">Plan Anual</h3>
+                <p class="font-antonio font-light text-base text-center text-gray mb-4">$27.600 los doce meses</p>
+                <p class="plan-card-price text-4xl text-primary font-antonio font-bold mb-4">$2300<span class="text-light text-2xl">/mes</span></p>
+                <p class="font-antonio font-light text-base text-center mb-4">Musculación Libre</p>
+                <p class="font-antonio font-light text-base text-center mb-4">Indoor Cycle</p>
+                <button class="action-btn registration-btn w-[130px] mx-auto">Inscribirme</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact bg-background p-8 mb-10 sm:px-16 sm:mb-20 lg:px-32">
+        <div class="contact-title flex items-center justify-center gap-2 mb-10">
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+            <h2 class="uppercase text-light font-antonio text-xl text-center lg:text-3xl">Contacto</h2>
+            <span class="divider-bar block w-16 h-1 bg-primary"></span>
+        </div>
+        <div class="text-center mb-6">
+            <p class="font-antonio font-bold text-primary text-2xl mb-2">Dirección:</p>
+            <p class="font-antonio">Reconquista 949, Capital Federal, Argentina.</p>
+        </div>
+        <div class="text-center mb-6">
+            <p class="font-antonio font-bold text-primary text-2xl mb-2">Teléfonos:</p>
+            <p class="font-antonio">(011) 4532-1542</p>
+        </div>
+        <div class="text-center mb-6">
+            <p class="font-antonio font-bold text-primary text-2xl mb-2">Horario de apertura:</p>
+            <p class="font-antonio">Lunes a Viernes de 7:00 a 23:00 y Sábados de 7:00 a 21:00</p>
+        </div>
+        <div class="mb-10 sm:max-w-[372px] sm:mx-auto">
+            <form action="" class="form">
+                <label for="name" class="block font-antonio text-base text text-light mb-2">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido" class="w-full h-10 py-2 px-4 mb-4 contact-form">
+                <p class="contact-name-error"></p>
+                <label for="telephone" class="block font-antonio text-base text-light mb-2">Teléfono</label>
+                <input type="number" name="telephone" id="telephone" placeholder="Número de Teléfono" class="w-full h-10 py-2 px-4 mb-4 contact-form">
+                <label for="email" class="block font-antonio text-base text-light mb-2">Email</label>
+                <input type="email" name="email" id="email" placeholder="Dirección de Email" class="w-full h-10 py-2 px-4 mb-4 contact-form">
+                <label for="message" class="block font-antonio text-base text-light mb-2">Mensaje</label>
+                <textarea name="message" id="message" placeholder="Aquí va su mensaje..." class="w-full h-28 py-2 px-4 mb-4 contact-form"></textarea>
+                <button class="action-btn w-full contact-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.292418751431!2d-58.375138085052555!3d-34.596766464636765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacac1b89c2d%3A0xfcbcc95decbdc408!2sReconquista%20949%2C%20C1003ABS%20CABA!5e0!3m2!1ses!2sar!4v1675479492192!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-80"></iframe>
+        </div>
+    </section>
+
+    <div class="booking-modal fixed inset-0 z-[100] duration-300 hidden-modal overflow-y-scroll">
+            <div class="booking-modal-form fixed z-[100] top-[50%] left-[50%] right-0 translate-y-[-50%] translate-x-[-50%] bg-background p-8 w-[375px] max-w-[375px]">
+                <button class="close-booking-modal absolute top-8 right-8">
+                    <img src="images/close.svg" class="w-[24px]" alt="">
+                </button>
+                <h3 class="text-light font-antonio text-xl text-left mb-4 mt-8">Reservar Clase</h3>
+                <form action="" class="booking-form">
+                    <label class="block text-light mb-1 font-roboto" for="lesson">Seleccionar Clase</label>
+                    <select name="days" class="w-full p-1 mb-2
+                    "  id="lesson">
+                        <option value="" selected></option>
+                        <option value="spinning">Spinning</option>
+                        <option value="boxing">Boxeo</option>
+                    </select>
+                    <label class="block text-light mb-1 font-roboto" for="days">Seleccionar día:</label>
+                    <select name="days" class="w-full p-1 mb-2
+                    "  id="days">
+                        <option value="" selected></option>
+                        <option value="monday">Lunes</option>
+                        <option value="tuesday">Martes</option>
+                        <option value="wednesday">Miércoles</option>
+                        <option value="thursday">Jueves</option>
+                        <option value="friday">Viernes</option>
+                        <option value="saturday">Sábado</option>
+                    </select>
+                    <label class="block text-light mb-1 font-roboto" for="hour">Seleccionar Horario:</label>
+                    <select name="hour" class="w-full p-1 mb-2
+                    " id="hour">
+                        <option value="" selected></option>
+                        <option value="nine">9.00 - 9.45</option>
+                        <option value="twelve">12.15 - 13.15</option>
+                        <option value="fourteen">14.00 - 14.45</option>
+                        <option value="seventeen">17.15 - 18.15</option>
+                        <option value="nineteen">19.00 - 19.45</option>
+                        <option value="twenty">20.30 - 21.30</option>
+                    </select>
+                    <label class="block text-light mb-1 font-roboto" for="name">Nombre</label>
+                    <input type="text" name="" class="w-full p-1 mb-2 booking
+                    " id="name" placeholder="Emiliano Martinez">
+                    <label class="block text-light mb-1 font-roboto" for="telephone-number">Número de Teléfono</label>
+                    <input type="number" name="" class="w-full p-1 mb-2 booking
+                    "  id="telephone-number" placeholder="1574879854">
+                    <label class="block text-light mb-1 font-roboto" for="email">Email</label>
+                    <input type="email" name="" class="w-full p-1 mb-2 booking
+                    " id="email" placeholder="dibumartinez@gmail.com">
+                    <button class="action-btn w-full mt-2" id="booking-modal-btn">Reservar Clase</button>
+                </form>
+            </div>
+            <div class="booking-overlay fixed inset-0 bg-dark opacity-90 z-50"></div>
+    </div>
+
+    <div class="registration-modal fixed inset-0 z-[100] duration-300 hidden-modal overflow-y-scroll">
+        <div class="booking-modal-form fixed z-[100] top-[50%] left-[50%] right-0 translate-y-[-50%] translate-x-[-50%] bg-background p-8 w-[375px] max-w-[375px]">
+            <button class="close-registration-modal absolute top-8 right-8">
+                <img src="images/close.svg" class="w-[24px]" alt="">
+            </button>
+            <h3 class="text-light font-antonio text-xl text-left mb-4 mt-8">Inscripción</h3>
+            <form action="" class="inscription-form">
+                <label class="block text-light mb-1 font-roboto" for="lesson">Seleccionar Plan</label>
+                <select name="days" class="w-full p-1 mb-2
+                "  id="lesson">
+                    <option value="" selected></option>
+                    <option value="boxing">Plan Boxeo</option>
+                    <option value="monthly">Plan Mensual</option>
+                    <option value="monthly">Plan Semestral</option>
+                    <option value="monthly">Plan Anual</option>
+                </select>
+                <label class="block text-light mb-1 font-roboto" for="name">Nombre</label>
+                <input type="text" name="" class="w-full p-1 mb-2 inscription
+                " id="name" placeholder="Emiliano Martinez">
+                <label class="block text-light mb-1 font-roboto" for="telephone-number">Número de Teléfono</label>
+                <input type="number" name="" class="w-full p-1 mb-2 inscription
+                "  id="telephone-number" placeholder="1574879854">
+                <label class="block text-light mb-1 font-roboto" for="email">Email</label>
+                <input type="email" name="" class="w-full p-1 mb-2 inscription
+                " id="email" placeholder="dibumartinez@gmail.com">
+                <button class="action-btn w-full mt-2" id="inscription-btn">Inscribirme</button>
+            </form>
+        </div>
+        <div class="booking-overlay fixed inset-0 bg-dark opacity-90 z-50"></div>
+</div>
+    <footer class="footer grid place-content-center bg-background p-6">
+        <div class="social-networks flex justify-center gap-4 mb-8">
+            <img src="images/instagram.svg" alt="">
+            <img src="images/youtube.svg" alt="">
+            <img src="images/facebook.svg" alt="">
+        </div>
+        <small class="text-center text-light">Designed by <span class="text-primary">Alan Flores</span></small>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="animations.js"></script>
+    <script src="forms.js"></script>
+</body>
+</html>
